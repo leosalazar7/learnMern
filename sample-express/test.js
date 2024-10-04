@@ -1,6 +1,11 @@
-const originalArray = [1,2,3]
-const clonedArray = [...originalArray]
-clonedArray[0] = 'one'
-clonedArray[1] = 'two'
-clonedArray[2] = 'three'
-console.log(`originalArray: ${originalArray}, clonedArray: ${clonedArray}`)
+let string = '1'
+let number = 1
+let result
+
+const calculate = (a, b) => a + b
+
+result = calculate(number, number)
+console.log('value: ', result,' type: ', typeof(result))
+
+result = calculate(string, number)
+console.log('value: ', result,' type: ', typeof(result))
