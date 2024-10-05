@@ -10,7 +10,11 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "cookie": "^0.7.1",
     "express": "^4.21.0",
     "node-fetch": "^3.2.6"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2"
   }
 }
