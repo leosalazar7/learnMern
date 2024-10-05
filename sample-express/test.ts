@@ -1,6 +1,9 @@
-const weather = 'sunny'
-
-function getWeather(weather: string): string {
-    return weather
+interface weatherQueryInterface {
+    zipcode: string
 }
-console.log(getWeather(weather))
+
+type WeatherDetailType = {
+    weather: string,
+    zipcode: string,
+    temp?: number
+}
